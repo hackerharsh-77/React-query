@@ -3,6 +3,7 @@
 import { useQuery } from "react-query";
 import axios from "axios";
 import Navbar from "./components/Navbar";
+import { Children } from "react";
 
 
 // const usePost = (id: number) =>{
@@ -47,7 +48,7 @@ export default function Home() {
     //   <h2>Description: {post.body}</h2>
     // </div>
     <div>
-      <Navbar />
+      Hello
     </div>
   );
 }
